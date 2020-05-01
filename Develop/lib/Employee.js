@@ -1,4 +1,4 @@
-// TODO: Write code to define and export the Employee class
+//Employee class that will be shared across other classes
 class Employee {
     constructor(name, id, email) {
         this.name = name;
