@@ -1,3 +1,4 @@
+// Variables used in building CLI application
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -11,6 +12,7 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 const teamArray = [];
 const render = require("./lib/htmlRenderer");
 
+// Function to start building team
 function teamBuilder() {
     return inquirer.prompt([
         {
@@ -51,7 +53,7 @@ function buildTeam() {
             type: "list",
             name: "nextMember",
             message: "What is team member's role?",
-            choices: ["Engineer", "Intern", "My team is complete and better than your team!"],
+            choices: ["Engineer", "Intern", "Your team is complete and better than any other team!"],
         },
     ])
         .then((teamBuilding) => {
@@ -72,22 +74,22 @@ function getEngineer() {
         {
             type: "input",
             name: "name",
-            message: "What is your name?"
+            message: "What is your engineer's name?"
         },
         {
             type: "input",
             name: "id",
-            message: "What is your ID?"
+            message: "What is your engineer's ID?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is your email?"
+            message: "What is your engineer's email?"
         },
         {
             type: "input",
             name: "gitHub",
-            message: "What is your GitHub unsername?"
+            message: "What is your engineer's GitHub username?"
         },
     ])
         .then((answers) => {
@@ -106,22 +108,22 @@ function getIntern() {
         {
             type: "input",
             name: "name",
-            message: "What is your name?"
+            message: "What is your intern's name?"
         },
         {
             type: "input",
             name: "id",
-            message: "What is your ID?"
+            message: "What is your intern's ID?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is your email?"
+            message: "What is your intern's email?"
         },
         {
             type: "input",
             name: "school",
-            message: "What is your school?",
+            message: "What is your intern's school?",
         },
     ])
         .then((answers) => {
