@@ -47,6 +47,8 @@ function teamBuilder() {
             buildTeam();
         });
 };
+
+// Function to add engineers and interns to team
 function buildTeam() {
     return inquirer.prompt([
         {
@@ -138,6 +140,7 @@ function getIntern() {
         });
 };
 
+// Function to output team
 function finalTeam() {
     fs.writeFile(outputPath, render(teamArray), "utf-8");
 };
