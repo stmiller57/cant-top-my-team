@@ -15,6 +15,7 @@ It can be challenging to keep track of who is working on different projects. Thi
 Run npm install to add dependencies. 
 ## Contributing
 All contributions and improvements are welcome.
+
 ![](assets/CSS.gif)
 ## License
 MIT
