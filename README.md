@@ -17,6 +17,8 @@ MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ### Creator information
 GitHub username: stmiller57
+
 Email: samiller57@gmail.com
+
 Github repository: https://github.com/stmiller57/cant-top-my-team
 
