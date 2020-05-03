@@ -5,6 +5,8 @@ Once she finishes building her team, an HTML page with each team member’s info
 ## Use
 It can be challenging to keep track of who is working on different projects. This team generator gives a manager quick access to team members and their relevant information. 
 
+![](assets/CLI.gif)
+
 ## Technologies used
 1. Node.js
 2. JavaScript
@@ -12,7 +14,8 @@ It can be challenging to keep track of who is working on different projects. Thi
 ## Installation
 Run npm install to add dependencies. 
 ## Contributing
-All contributions and improvements are welcome
+All contributions and improvements are welcome.
+![](assets/CSS.gif)
 ## License
 MIT
 
