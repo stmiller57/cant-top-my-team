@@ -18,7 +18,7 @@ All contributions and improvements are welcome.
 
 ![](assets/CSS.gif)
 ## License
-MIT
+https://opensource.org/licenses/MIT
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Creator information
