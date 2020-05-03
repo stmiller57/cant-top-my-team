@@ -10,12 +10,13 @@ It can be challenging to keep track of who is working on different projects. Thi
 3. Bootstrap CSS framework
 ## Installation
 Run npm install to add dependencies. 
-### Contributing
+## Contributing
 All contributions and improvements are welcome
-### License
-MIT 
+## License
+MIT
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-### Creator information
+## Creator information
 GitHub username: stmiller57
 
 Email: samiller57@gmail.com
