@@ -1,4 +1,4 @@
-# Can’t top my team
+# Can’t Top My Team
 ## Project description
 This project called for the creation of a CLI to generate an HTML page featuring a software development team. The user is prompted to create a team starting with a manager. She can add any number of engineers and interns to the team. 
 Once she finishes building her team, an HTML page with each team member’s information is generated. 
